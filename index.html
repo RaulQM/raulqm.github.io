@@ -1,0 +1,151 @@
+---
+layout: null
+title: Home
+---
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>{{ site.title }}</title>
+  <meta name="description" content="{{ site.description }}">
+  <link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <!-- Social & SEO -->
+  <meta property="og:title" content="Raul de Queiroz Mendes">
+  <meta property="og:description" content="Robotics and computer vision engineer turning perception into action.">
+  <meta property="og:url" content="https://raulqm.github.io">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://raulqm.github.io/assets/Queiroz_Mendes.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Raul de Queiroz Mendes">
+  <meta name="twitter:description" content="Robotics and computer vision engineer turning perception into action.">
+  <meta name="twitter:image" content="https://raulqm.github.io/assets/Queiroz_Mendes.jpg">
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand fade">
+        <h1 class="name">Raul de Queiroz Mendes</h1>
+        <p class="tagline">Robotics and computer vision engineer turning perception into action.</p>
+        <p class="subtagline">Based in the Netherlands — passionate about building intelligent robotic systems.</p>
+      </div>
+      <nav class="nav">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+        <a class="btn" href="{{ '/cv/Resume_Raul_de_Queiroz_Mendes.pdf' | relative_url }}" target="_blank">Download CV</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero fade">
+      <div class="container hero-inner">
+        <div class="hero-left">
+          <h2>Hello — I build perception systems for robots.</h2>
+          <p class="lead">I design and implement vision and learning pipelines for manipulation, 3D reconstruction, and pose estimation. I work at the intersection of machine learning and robotics to turn perception into action in industrial settings.</p>
+          <div class="cta-row">
+            <a class="cta primary" href="#projects">View Projects</a>
+            <a class="cta outline" href="#contact">Get in Touch</a>
+          </div>
+          <div class="links">
+            <a href="{{ site.author.github }}" target="_blank"><img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/github.svg" class="icon" alt=""> GitHub</a> ·
+            <a href="{{ site.author.linkedin }}" target="_blank"><img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/linkedin.svg" class="icon" alt=""> LinkedIn</a>
+          </div>
+        </div>
+        <div class="hero-right">
+          <div class="portrait fade">
+            <img src="{{ '/assets/Queiroz_Mendes.jpg' | relative_url }}" alt="Raul de Queiroz Mendes">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section container about fade">
+      <h3>About</h3>
+      <p>Multidisciplinary engineer and researcher with a strong academic foundation in Electrical and Mechanical Engineering, specialized in Computer Vision, Machine Learning, and Robotics. Experienced building vision-based perception components for robotic manipulation: depth estimation, multi-object pose estimation, 3D reconstruction, and visuo-tactile integration. Currently finishing a PhD at Eindhoven University of Technology with a focus on visuotactile robotic perception and physics-informed scene representation.</p>
+    </section>
+
+    <section id="skills" class="section container skills fade">
+      <h3>Skills & Tools</h3>
+      <div class="chips">
+        <span>Python</span><span>C / C++</span><span>PyTorch</span><span>TensorFlow</span><span>OpenCV</span>
+        <span>ROS</span><span>COLMAP</span><span>Open3D</span><span>MATLAB</span><span>Franka Emika</span>
+        <span>Zivid</span><span>AGX Dynamics</span>
+      </div>
+    </section>
+
+    <section id="projects" class="section container projects fade">
+      <h3>Selected Projects</h3>
+      <div class="project-grid">
+        <article class="project-card">
+          <h4>I.Touch2See</h4>
+          <p>Visuo-tactile integration for shape reasoning — integrating visual and tactile signals to build richer object representations for manipulation.</p>
+          <p class="meta"><a href="https://gitlab.tue.nl/20220548/touch2see" target="_blank">GitLab</a></p>
+        </article>
+        <article class="project-card">
+          <h4>DYNAMO</h4>
+          <p>Vision-initialized physics-based dynamic motion prediction for object manipulation — combining perception and dynamics for robust planning.</p>
+          <p class="meta"><a href="https://gitlab.tue.nl/20220548/dynamo" target="_blank">GitLab</a> · <a href="https://doi.org/10.1109/LRA.2023.3331894" target="_blank">DOI</a></p>
+        </article>
+        <article class="project-card">
+          <h4>MORPHO</h4>
+          <p>Model-free object reconstruction and pose hypothesis optimization — 3D reconstruction approaches for pose estimation in cluttered scenes.</p>
+          <p class="meta"><a href="https://gitlab.tue.nl/20220548/morpho" target="_blank">GitLab</a></p>
+        </article>
+        <article class="project-card">
+          <h4>UNO</h4>
+          <p>Unified model-based and model-free orientation estimation under symmetry and occlusion ambiguity — robust orientation estimation strategies for symmetric objects.</p>
+          <p class="meta"><a href="https://gitlab.tue.nl/20220548/uno" target="_blank">GitLab</a> · <a href="https://doi.org/10.1016/j.robot.2020.103701" target="_blank">DOI</a></p>
+        </article>
+      </div>
+      <p class="meta viewall"><a href="{{ site.author.github }}" target="_blank">View all projects on GitHub →</a></p>
+    </section>
+
+    <section id="contact" class="section container contact fade">
+      <h3>Contact</h3>
+      <div class="contact-links">
+        <a href="mailto:r.de.queiroz.mendes@tue.nl"><img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/minutemailer.svg" class="icon" alt=""> Email</a>
+        <a href="{{ site.author.linkedin }}" target="_blank"><img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/linkedin.svg" class="icon" alt=""> LinkedIn</a>
+        <a href="{{ site.author.github }}" target="_blank"><img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/github.svg" class="icon" alt=""> GitHub</a>
+      </div>
+      <p class="cta-connect">Let’s connect and build something together.</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-pulse"></div>
+    <div class="container">
+      <small>© {{ site.time | date: "%Y" }} Raul de Queiroz Mendes · <a href="{{ '/cv/Resume_Raul_de_Queiroz_Mendes.pdf' | relative_url }}">Download CV</a></small>
+    </div>
+  </footer>
+
+  <!-- Scroll-to-top -->
+  <button id="scrollTopBtn" title="Back to top">↑</button>
+
+  <script>
+    // Fade-in on scroll
+    const fadeEls=document.querySelectorAll('.fade');
+    const io=new IntersectionObserver((entries)=>{
+      entries.forEach(e=>{if(e.isIntersecting)e.target.classList.add('visible');});
+    },{threshold:0.2});
+    fadeEls.forEach(el=>io.observe(el));
+
+    // Scroll-to-top button
+    const scrollBtn=document.getElementById("scrollTopBtn");
+    window.addEventListener("scroll",()=>{
+      if(window.scrollY>300)scrollBtn.classList.add("show");
+      else scrollBtn.classList.remove("show");
+    });
+    scrollBtn.addEventListener("click",()=>window.scrollTo({top:0,behavior:"smooth"}));
+  </script>
+</body>
+</html>
+
