@@ -36,19 +36,10 @@ Currently completing a **PhD in Mechanical Engineering at Eindhoven University o
 
 ## 📚 Selected Projects
 
-### [I.Touch2See](https://gitlab.tue.nl/20220548/touch2see)
-Visuo-tactile integration for shape reasoning — combining vision and tactile sensing for robust object understanding.
-
-### [DYNAMO](https://gitlab.tue.nl/20220548/dynamo)
-Vision-initialized physics-based dynamic motion prediction for object manipulation.  
-🔗 [DOI](https://doi.org/10.1109/LRA.2023.3331894)
-
-### [MORPHO](https://gitlab.tue.nl/20220548/morpho)
-Model-free object reconstruction and pose tracking for manipulation tasks.
-
-### [UNO](https://gitlab.tue.nl/20220548/uno)
-Unified model-based and model-free orientation estimation under symmetry and occlusion ambiguity.  
-🔗 [DOI](https://doi.org/10.1016/j.robot.2020.103701)
+- [I.Touch2See](https://gitlab.tue.nl/20220548/touch2see) – Visuo-tactile integration for shape reasoning
+- [DYNAMO](https://gitlab.tue.nl/20220548/dynamo) – Vision-initialized physics-based dynamic motion prediction
+- [MORPHO](https://gitlab.tue.nl/20220548/morpho) – Model-free object reconstruction and pose tracking
+- [UNO](https://gitlab.tue.nl/20220548/uno) – Orientation estimation under symmetry and occlusion ambiguity
 
 ---
 
