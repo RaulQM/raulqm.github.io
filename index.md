@@ -20,7 +20,7 @@ Currently completing a **PhD in Mechanical Engineering at Eindhoven University o
 ---
 
 ## 🧰 Technical Skills
-**Programming & Tools:** Python · C/C++ · MATLAB · ROS · TensorFlow · PyTorch · OpenCV · Hugging Face
+**Programming & Tools:** Python · C/C++ · MATLAB · ROS · TensorFlow · PyTorch · OpenCV · Hugging Face  
 **3D & Simulation:** Open3D · COLMAP · ZED SDK · Zivid · AGX Dynamics · Blender · MeshLab  
 **Robotics:** Franka Emika (libfranka) · OptiTrack Motive · mc_rtc  
 **Others:** Scikit-learn · SciPy · Pyrender · Pycolmap · BlenderProc · Trimesh  
